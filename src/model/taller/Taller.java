@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class Taller {
   private float ganancias;
   private int cantidadDeReparaciones;
-  ArrayList<Smartphone> smartphones[100];
+  ArrayList<Smartphone> smartphones[];
 
   public Taller() {}
 
