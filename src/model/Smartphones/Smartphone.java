@@ -14,6 +14,8 @@ public abstract class Smartphone  {
     this.costoBase = costoBase;
   }
 
+
+  //Getters y Seters
   public String getNroSerie() {
     return nroSerie;
   }
@@ -46,10 +48,5 @@ public abstract class Smartphone  {
     this.costoBase = costoBase;
   }
 
-  public abstract getTipo("Android", "Iphone"){
-
-  }
-
-
-
+  public abstract String getTipo();
 }

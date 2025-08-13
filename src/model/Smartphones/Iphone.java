@@ -1,13 +1,12 @@
 package model.Smartphones;
 
-public class Android extends Smartphone {
+public class Iphone extends Smartphone {
+
   private Smartphone smartphone;
 
-
-  public Android(String nroSerie, String modelo, int anio, float costoBase) {
+  public Iphone(String nroSerie, String modelo, int anio, float costoBase) {
     super(nroSerie, modelo, anio, costoBase);
   }
-
 
   public Smartphone getSmartphone() {
     return smartphone;
@@ -15,10 +14,5 @@ public class Android extends Smartphone {
 
   public void setSmartphone(Smartphone smartphone) {
     this.smartphone = smartphone;
-  }
-
-  @Override
-  public String getTipo() {
-    return "Samsung";
   }
 }
